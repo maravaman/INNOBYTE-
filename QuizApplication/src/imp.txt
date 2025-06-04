@@ -1,0 +1,2 @@
+1. javac --module-path "C:\javafx-sdk-24.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base --class-path "lib/*" src/*.java src/DbConnection.java src/User.java src/Quiz.java src/Question.java src/QuizAttempt.java src/AuthService.java src/UserDao.java src/QuizDao.java src/QuestionDao.java src/QuizAttemptDao.java src/QuizManager.java
+2.java --module-path "C:\javafx-sdk-24.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base --class-path "lib/*;src" QuizApplication
